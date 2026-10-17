@@ -46,7 +46,6 @@ export const Header: React.FC<HeaderProps> = ({ onOpenEnquire }) => {
     ...(settings.showCommissionPlan
       ? [{ name: "Business Plan", path: "/commission-plan" }]
       : []),
-    { name: "Download APK", path: "/download-apk" },
     { name: "Contact", path: "/contact" },
   ];
 
@@ -188,16 +187,19 @@ export const Header: React.FC<HeaderProps> = ({ onOpenEnquire }) => {
 
           {/* Mobile Navigation Toggle */}
           <div className="flex lg:hidden items-center gap-2">
-            <button
-              onClick={handleEnquireClick}
-              className={`text-xs px-3 py-1.5 rounded font-bold uppercase tracking-wider transition-colors ${
+            <a
+              href={APK_DOWNLOAD_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={`text-[10px] px-2 py-1 rounded font-bold uppercase tracking-wider transition-colors inline-flex items-center gap-1 ${
                 isTransparent
                   ? "bg-[#CCA02E] text-[#103858]"
                   : "bg-[#103858] text-white"
               }`}
             >
-              Enquire
-            </button>
+              <Download className="w-3 h-3" />
+              APK
+            </a>
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
               className={`p-2 rounded-lg transition-colors ${
@@ -246,15 +248,16 @@ export const Header: React.FC<HeaderProps> = ({ onOpenEnquire }) => {
           </div>
 
           <div className="pt-3 border-t border-slate-100 flex flex-col gap-2">
-            <a
-              href={APK_DOWNLOAD_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center justify-center gap-2 py-2.5 rounded-lg bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-bold transition-colors"
+            <button
+              onClick={() => {
+                setMobileMenuOpen(false);
+                handleEnquireClick();
+              }}
+              className="flex items-center justify-center gap-2 py-2.5 rounded-lg bg-[#103858] hover:bg-[#0b253a] text-white text-xs font-bold transition-colors"
             >
-              <Download className="w-3.5 h-3.5" />
-              <span>Download APK for Android</span>
-            </a>
+              <ChevronRight className="w-3.5 h-3.5 text-[#CCA02E]" />
+              <span>Enquire</span>
+            </button>
             {settings.phone && (
               <a
                 href={`tel:${settings.phone.replace(/\s+/g, "")}`}
