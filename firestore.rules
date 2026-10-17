@@ -1,0 +1,125 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    // Helper functions
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+    
+    function getUserData() {
+      return get(/databases/$(database)/documents/users/$(request.auth.uid)).data;
+    }
+    
+    function isAdmin() {
+      return isAuthenticated() && 
+        (getUserData().role == 'super_admin' || getUserData().role == 'sales_admin' || getUserData().role == 'inventory_manager');
+    }
+    
+    function isSuperAdmin() {
+      return isAuthenticated() && getUserData().role == 'super_admin';
+    }
+
+    function isInventoryManager() {
+      return isAuthenticated() && 
+        (getUserData().role == 'super_admin' || getUserData().role == 'inventory_manager');
+    }
+    
+    function isSalesAdmin() {
+      return isAuthenticated() && 
+        (getUserData().role == 'super_admin' || getUserData().role == 'sales_admin');
+    }
+
+    // 1. Settings Collection
+    match /settings/{settingId} {
+      allow read: if true; // Public company branding and contact details
+      allow write: if isSuperAdmin();
+    }
+
+    // 2. Projects Collection
+    match /projects/{projectId} {
+      allow read: if true; // Public catalog
+      allow create, update, delete: if isSalesAdmin();
+    }
+
+    // 3. Inventory Collection (Core live property status)
+    match /inventory/{itemId} {
+      allow read: if true; // Public live inventory matrix
+      allow create, update, delete: if isInventoryManager();
+    }
+
+    // 4. Status History (Audit trail of plot / unit status changes)
+    match /statusHistory/{historyId} {
+      allow read: if isAdmin();
+      allow create: if isInventoryManager();
+      allow update, delete: if false; // Immutable audit log
+    }
+
+    // 5. Leads Collection (CRM)
+    match /leads/{leadId} {
+      allow create: if true; // Public enquiry submission
+      allow read, update, delete: if isSalesAdmin();
+    }
+
+    // 6. Site Visits Collection
+    match /siteVisits/{visitId} {
+      allow create: if true; // Public booking
+      allow read, update, delete: if isSalesAdmin();
+    }
+
+    // 7. Associates Collection (Channel partner applications)
+    match /associates/{associateId} {
+      allow create: if true; // Public partner registration
+      allow read, update, delete: if isSalesAdmin();
+    }
+
+    // 8. Testimonials Collection
+    match /testimonials/{testimonialId} {
+      allow read: if true; // Public reviews
+      allow write: if isSuperAdmin();
+    }
+
+    // 9. Users Collection (Staff Profiles & RBAC)
+    match /users/{userId} {
+      allow read: if isAuthenticated();
+      allow write: if isSuperAdmin();
+    }
+
+    // 10. Audit Logs
+    match /auditLogs/{logId} {
+      allow read: if isAdmin();
+      allow create: if isAuthenticated();
+      allow update, delete: if false; // Immutable
+    }
+
+    // 11. Commission Plan Configuration (10-Level optional structure)
+    match /commissionPlanConfig/{configId} {
+      allow read: if true;
+      allow write: if isSuperAdmin();
+    }
+
+    // 12. Qualifying Transactions (Linked to verified property sales)
+    match /qualifyingTransactions/{txId} {
+      allow read, write: if isSalesAdmin();
+    }
+
+    // 13. Commission Records (10-Level calculated commissions)
+    match /commissionRecords/{recordId} {
+      allow read: if isAuthenticated() || isSalesAdmin();
+      allow write: if isSalesAdmin();
+    }
+
+    // 14. Direct Referral Records
+    match /directReferralRecords/{recordId} {
+      allow read: if isAuthenticated() || isSalesAdmin();
+      allow write: if isSalesAdmin();
+    }
+
+    // 15. Matching Records (1:1 Network Business Matching)
+    match /matchingRecords/{recordId} {
+      allow read: if isAuthenticated() || isSalesAdmin();
+      allow write: if isSalesAdmin();
+    }
+  }
+}

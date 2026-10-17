@@ -1,0 +1,6 @@
+{
+  "name": "Cosy Reality",
+  "description": "Production-ready real estate web application with live inventory management, dynamic project showcase, associate network, CRM, and admin dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

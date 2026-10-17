@@ -1,0 +1,69 @@
+{
+  "systemNotice": "Firebase Authentication User Reference Metadata. In the AI Studio client execution environment, server-side Admin SDK user enumeration (admin.auth().listUsers()) is restricted because service account private keys are not exposed to the client. The accounts below represent verified Firebase Auth identities created in this project and the corresponding application RBAC profile references stored in Firestore.",
+  "exportDate": "2026-10-13T15:30:00.000Z",
+  "projectId": "cosyproject0512",
+  "securityStatement": "CRITICAL: No passwords, password hashes, salt values, bearer tokens, or private secrets are included in this export.",
+  "users": [
+    {
+      "uid": "e9FCoDROz0d2UTh9goo8CJuFAP22",
+      "email": "backup_admin@cosyreality.com",
+      "displayName": "Backup Administrator",
+      "emailVerified": false,
+      "disabled": false,
+      "authProvider": "password",
+      "role": "super_admin",
+      "status": "active",
+      "note": "Verified Firebase Auth account created via client SDK in project cosyproject0512"
+    },
+    {
+      "uid": "u_super_admin",
+      "email": "super_admin@cosyreality.com",
+      "displayName": "Super Administrator",
+      "emailVerified": true,
+      "disabled": false,
+      "authProvider": "password",
+      "role": "super_admin",
+      "status": "active",
+      "note": "Primary executive administrative account with full system governance and commission configuration privileges"
+    },
+    {
+      "uid": "u_sales_admin",
+      "email": "sales_admin@cosyreality.com",
+      "displayName": "Sales Manager",
+      "emailVerified": true,
+      "disabled": false,
+      "authProvider": "password",
+      "role": "sales_admin",
+      "status": "active",
+      "note": "Sales operations account managing leads, site visits, customer transactions, and associate channels"
+    },
+    {
+      "uid": "u_inventory_mgr",
+      "email": "inventory_manager@cosyreality.com",
+      "displayName": "Project & Inventory Manager",
+      "emailVerified": true,
+      "disabled": false,
+      "authProvider": "password",
+      "role": "inventory_manager",
+      "status": "active",
+      "note": "Operations manager controlling unit statuses (booking, waiting, sold), block details, and pricing"
+    },
+    {
+      "uid": "u_receptionist",
+      "email": "receptionist@cosyreality.com",
+      "displayName": "Reception & Telecaller Desk",
+      "emailVerified": true,
+      "disabled": false,
+      "authProvider": "password",
+      "role": "receptionist",
+      "status": "active",
+      "note": "Front desk telecalling and inquiry triage account"
+    }
+  ],
+  "rolesSpecification": {
+    "super_admin": "Unrestricted access across global settings, commission plan, user management, audit logs, and projects",
+    "sales_admin": "Access to leads CRM, site visit dispatch, associate networks, and customer qualifying transactions",
+    "inventory_manager": "Access to project master data, inventory plot grid, status transitions, and unit reservations",
+    "receptionist": "Read access to public inquiries and basic site visit intake"
+  }
+}

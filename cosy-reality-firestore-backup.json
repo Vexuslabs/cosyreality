@@ -1,0 +1,1170 @@
+{
+  "metadata": {
+    "appName": "Cosy Reality",
+    "exportDate": "2026-10-13T15:28:14.284Z",
+    "firestoreProjectId": "cosyproject0512",
+    "version": "1.0.0",
+    "collectionsCount": 15,
+    "totalDocumentsCount": 47,
+    "collectionsSummary": {
+      "settings": 1,
+      "projects": 2,
+      "inventory": 15,
+      "leads": 3,
+      "siteVisits": 2,
+      "associates": 4,
+      "testimonials": 3,
+      "users": 4,
+      "statusHistory": 2,
+      "auditLogs": 2,
+      "qualifyingTransactions": 2,
+      "commissionRecords": 2,
+      "matchingRecords": 2,
+      "directReferralRecords": 2,
+      "commissionPlanConfig": 1
+    }
+  },
+  "collections": {
+    "settings": {
+      "general": {
+        "experienceYears": 15,
+        "showAssociates": true,
+        "showStatistics": true,
+        "companyName": "COSY REALITY",
+        "tagline": "Reality But Make It Cosy",
+        "showTestimonials": true,
+        "showCommissionPlan": false
+      }
+    },
+    "projects": {
+      "wfGdqJCPHmra38mKTDI7": {
+        "availableUnits": 4,
+        "slug": "demo-project-01",
+        "city": "Demo City",
+        "propertySizes": [
+          "150 Sq. Yd.",
+          "180 Sq. Yd.",
+          "200 Sq. Yd.",
+          "220 Sq. Yd.",
+          "250 Sq. Yd.",
+          "300 Sq. Yd."
+        ],
+        "fullDescription": "Demo Project 01 is a model residential plotted community designed for comfortable living with well-planned road networks, green spaces, and clear layouts.",
+        "rateUnit": "per Sq. Yd.",
+        "isActive": true,
+        "state": "Demo State",
+        "updatedAt": {
+          "_type": "timestamp",
+          "seconds": 1787313020,
+          "nanoseconds": 542000000,
+          "iso": "2026-08-21T11:50:20.542Z"
+        },
+        "featured": true,
+        "active": true,
+        "highlights": [
+          "Well-planned 40ft wide internal sector roads",
+          "Underground cabling and water supply",
+          "Immediate allotment on booking"
+        ],
+        "title": "Demo Project 01",
+        "tagline": "Modern Plotted Living in Demo Location",
+        "featuredImageUrl": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1600&q=80",
+        "shortDescription": "Modern planned residential plots with green avenues in Demo Location.",
+        "totalUnits": 9,
+        "projectType": "Residential Plot",
+        "description": "Modern residential plots with open green avenues and underground infrastructure.",
+        "pincode": "122001",
+        "maximumPrice": 10500000,
+        "isFeatured": true,
+        "id": "wfGdqJCPHmra38mKTDI7",
+        "startingPrice": 5250000,
+        "projectStatus": "Ongoing",
+        "createdAt": {
+          "_type": "timestamp",
+          "seconds": 1787312718,
+          "nanoseconds": 319000000,
+          "iso": "2026-08-21T11:45:18.319Z"
+        },
+        "projectName": "Demo Project 01",
+        "location": "Demo Location",
+        "amenities": [
+          {
+            "name": "Gated Security",
+            "id": "1"
+          },
+          {
+            "name": "Avenue Plantations",
+            "id": "2"
+          },
+          {
+            "id": "3",
+            "name": "Underground Utilities"
+          },
+          {
+            "id": "4",
+            "name": "Park & Walking Track"
+          }
+        ],
+        "isDemo": true,
+        "heroImage": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1600&q=80",
+        "rate": 35000
+      },
+      "bansuri-dham-project": {
+        "id": "bansuri-dham-project",
+        "projectName": "Bansuri Dham",
+        "slug": "bansuri-dham",
+        "location": "58 KM Milestone, Yamuna Expressway, Near Jewar Airport",
+        "city": "Yamuna Expressway",
+        "state": "Uttar Pradesh",
+        "pincode": "202140",
+        "projectType": "Plotted Development",
+        "projectStatus": "Ongoing",
+        "startingPrice": 0,
+        "totalArea": "79,452 sqm",
+        "projectArea": "79,452 sqm",
+        "shortDescription": "A thoughtfully planned plotted development along the Yamuna Expressway corridor.",
+        "description": "Bansuri Dham is a plotted development positioned along the Yamuna Expressway corridor, near Jewar Airport. The project combines residential and commercial components with open areas, road infrastructure and planned amenities.",
+        "featured": true,
+        "active": true,
+        "isDemo": false,
+        "heroImage": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1600&q=80",
+        "thumbnail": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=600&q=80",
+        "gallery": [
+          "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
+          "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1200&q=80"
+        ],
+        "siteAreaBreakdown": {
+          "totalArea": "79,452 sqm",
+          "farmArea": "25,783 sqm",
+          "plotArea": "29,992 sqm",
+          "parkArea": "2,878 sqm",
+          "roadArea": "20,548 sqm",
+          "additionalRoadArea": "250.2 sqm"
+        },
+        "components": [
+          "Commercial Plots",
+          "Residential Plots",
+          "Farm Area",
+          "Apartments",
+          "Recreation",
+          "Education",
+          "Shopping",
+          "Sports"
+        ],
+        "highlights": [
+          "Strategic location at 58 KM Milestone on Yamuna Expressway corridor",
+          "Positioned in the Jewar Airport (Noida International Airport) development corridor",
+          "Comprehensive master planning across 79,452 sqm total site area",
+          "Dedicated 20,548 sqm wide arterial and internal road network",
+          "2,878 sqm landscaped central park and green belts",
+          "Balanced development mix comprising residential plots, commercial zones & farm spaces"
+        ],
+        "locationAdvantages": [
+          "Yamuna Expressway strategic regional corridor",
+          "Direct access to Jewar Airport (Noida International Airport)",
+          "Connected via Bajna-Chandaus Highway & Aligarh-Palwal Highway",
+          "Close proximity to designated Film City, Defence Corridor & Tech Zones",
+          "Easy accessibility to Vrindavan, Mathura, and Agra"
+        ],
+        "amenities": [
+          "Parks / Walking Tracks",
+          "Club House & Gym",
+          "Solar Lights / Panels",
+          "CCTV Surveillance",
+          "Road & Infrastructure (20,548 sqm)",
+          "Drainage / Sewerage Systems",
+          "Educational & Recreation Provisions",
+          "Devotional & Cultural Harmony Spaces"
+        ],
+        "developerInfo": "The supplied project brochure presents Bansuri Dham under Radha Rani Residency Pvt. Ltd. / NCR Group branding.",
+        "associatedProjects": [
+          "Sudha Enclave",
+          "Shri Radha Rani Farms",
+          "Dronagiri Apartments",
+          "Shiv Shakti Vihar",
+          "Shiv Shakti Vatika"
+        ],
+        "showAssociatedProjects": true,
+        "seoTitle": "Bansuri Dham Yamuna Expressway | Cosy Reality",
+        "seoDescription": "Explore Bansuri Dham, a plotted development at 58 KM Milestone, Yamuna Expressway near Jewar Airport. View project details, site plan, connectivity and live availability.",
+        "createdAt": {
+          "_type": "timestamp",
+          "seconds": 1787312718,
+          "nanoseconds": 0,
+          "iso": "2026-08-21T11:45:18.000Z"
+        },
+        "updatedAt": {
+          "_type": "timestamp",
+          "seconds": 1787313020,
+          "nanoseconds": 0,
+          "iso": "2026-08-21T11:50:20.000Z"
+        }
+      }
+    },
+    "inventory": {
+      "4Ap625FWWsuQw2MVc6L8": {
+        "isDemo": true,
+        "size": 300,
+        "projectId": "wfGdqJCPHmra38mKTDI7",
+        "facing": "North-East",
+        "propertyType": "Residential Plot",
+        "bookingAmount": 100000,
+        "createdAt": {
+          "_type": "timestamp",
+          "seconds": 1787312718,
+          "nanoseconds": 319000000,
+          "iso": "2026-08-21T11:45:18.319Z"
+        },
+        "block": "Block B",
+        "updatedAt": {
+          "_type": "timestamp",
+          "seconds": 1787312978,
+          "nanoseconds": 624000000,
+          "iso": "2026-08-21T11:49:38.624Z"
+        },
+        "plotNumber": "B-04",
+        "sizeUnit": "Sq. Yd.",
+        "roadWidth": "40 Ft",
+        "projectName": "Demo Project 01",
+        "baseRate": 35000,
+        "id": "4Ap625FWWsuQw2MVc6L8",
+        "status": "sold",
+        "finalPrice": 10500000,
+        "unitNumber": "B-04",
+        "cornerPlot": true
+      },
+      "4bSpPstBCE1j0ocR4Yaa": {
+        "sizeUnit": "Sq. Yd.",
+        "size": 180,
+        "finalPrice": 6300000,
+        "cornerPlot": false,
+        "unitNumber": "B-01",
+        "roadWidth": "40 Ft",
+        "facing": "South",
+        "baseRate": 35000,
+        "isDemo": true,
+        "propertyType": "Residential Plot",
+        "id": "4bSpPstBCE1j0ocR4Yaa",
+        "updatedAt": {
+          "_type": "timestamp",
+          "seconds": 1787312978,
+          "nanoseconds": 710000000,
+          "iso": "2026-08-21T11:49:38.710Z"
+        },
+        "block": "Block B",
+        "bookingAmount": 100000,
+        "status": "waiting",
+        "createdAt": {
+          "_type": "timestamp",
+          "seconds": 1787312718,
+          "nanoseconds": 319000000,
+          "iso": "2026-08-21T11:45:18.319Z"
+        },
+        "plotNumber": "B-01",
+        "projectName": "Demo Project 01",
+        "projectId": "wfGdqJCPHmra38mKTDI7"
+      },
+      "8HJaUbGPNxZ9K37H6a07": {
+        "size": 250,
+        "block": "Block A",
+        "isDemo": true,
+        "roadWidth": "40 Ft",
+        "facing": "North",
+        "unitNumber": "A-05",
+        "cornerPlot": true,
+        "finalPrice": 8750000,
+        "status": "booking",
+        "projectName": "Demo Project 01",
+        "updatedAt": {
+          "_type": "timestamp",
+          "seconds": 1787312978,
+          "nanoseconds": 810000000,
+          "iso": "2026-08-21T11:49:38.810Z"
+        },
+        "id": "8HJaUbGPNxZ9K37H6a07",
+        "baseRate": 35000,
+        "propertyType": "Residential Plot",
+        "createdAt": {
+          "_type": "timestamp",
+          "seconds": 1787312718,
+          "nanoseconds": 319000000,
+          "iso": "2026-08-21T11:45:18.319Z"
+        },
+        "bookingAmount": 100000,
+        "projectId": "wfGdqJCPHmra38mKTDI7",
+        "sizeUnit": "Sq. Yd.",
+        "plotNumber": "A-05"
+      },
+      "JAOvg0nWVgNbQg0lmz6U": {
+        "plotNumber": "B-02",
+        "bookingAmount": 100000,
+        "projectName": "Demo Project 01",
+        "facing": "West",
+        "id": "JAOvg0nWVgNbQg0lmz6U",
+        "roadWidth": "40 Ft",
+        "isDemo": true,
+        "sizeUnit": "Sq. Yd.",
+        "finalPrice": 6300000,
+        "createdAt": {
+          "_type": "timestamp",
+          "seconds": 1787312718,
+          "nanoseconds": 319000000,
+          "iso": "2026-08-21T11:45:18.319Z"
+        },
+        "unitNumber": "B-02",
+        "cornerPlot": false,
+        "propertyType": "Residential Plot",
+        "updatedAt": {
+          "_type": "timestamp",
+          "seconds": 1787312978,
+          "nanoseconds": 935000000,
+          "iso": "2026-08-21T11:49:38.935Z"
+        },
+        "status": "sold",
+        "block": "Block B",
+        "projectId": "wfGdqJCPHmra38mKTDI7",
+        "size": 180,
+        "baseRate": 35000
+      },
+      "LcOJn3o0FgcFBCU99LYe": {
+        "updatedAt": {
+          "_type": "timestamp",
+          "seconds": 1787312979,
+          "nanoseconds": 20000000,
+          "iso": "2026-08-21T11:49:39.020Z"
+        },
+        "createdAt": {
+          "_type": "timestamp",
+          "seconds": 1787312718,
+          "nanoseconds": 319000000,
+          "iso": "2026-08-21T11:45:18.319Z"
+        },
+        "plotNumber": "B-03",
+        "status": "booking",
+        "size": 220,
+        "propertyType": "Residential Plot",
+        "projectId": "wfGdqJCPHmra38mKTDI7",
+        "baseRate": 35000,
+        "bookingAmount": 100000,
+        "isDemo": true,
+        "id": "LcOJn3o0FgcFBCU99LYe",
+        "finalPrice": 7700000,
+        "unitNumber": "B-03",
+        "cornerPlot": false,
+        "facing": "East",
+        "roadWidth": "40 Ft",
+        "sizeUnit": "Sq. Yd.",
+        "block": "Block B",
+        "projectName": "Demo Project 01"
+      },
+      "MD6uDPrIgJYygLsfl8ZT": {
+        "id": "MD6uDPrIgJYygLsfl8ZT",
+        "baseRate": 35000,
+        "plotNumber": "A-03",
+        "roadWidth": "40 Ft",
+        "sizeUnit": "Sq. Yd.",
+        "propertyType": "Residential Plot",
+        "status": "waiting",
+        "block": "Block A",
+        "updatedAt": {
+          "_type": "timestamp",
+          "seconds": 1787312979,
+          "nanoseconds": 112000000,
+          "iso": "2026-08-21T11:49:39.112Z"
+        },
+        "bookingAmount": 100000,
+        "facing": "East",
+        "finalPrice": 7000000,
+        "unitNumber": "A-03",
+        "cornerPlot": false,
+        "createdAt": {
+          "_type": "timestamp",
+          "seconds": 1787312718,
+          "nanoseconds": 319000000,
+          "iso": "2026-08-21T11:45:18.319Z"
+        },
+        "size": 200,
+        "isDemo": true,
+        "projectName": "Demo Project 01",
+        "projectId": "wfGdqJCPHmra38mKTDI7"
+      },
+      "knpOONPOh6BJxrso1vyJ": {
+        "block": "Block A",
+        "finalPrice": 5250000,
+        "projectId": "wfGdqJCPHmra38mKTDI7",
+        "status": "booking",
+        "unitNumber": "A-01",
+        "cornerPlot": true,
+        "updatedAt": {
+          "_type": "timestamp",
+          "seconds": 1787312988,
+          "nanoseconds": 159000000,
+          "iso": "2026-08-21T11:49:48.159Z"
+        },
+        "size": 150,
+        "createdAt": {
+          "_type": "timestamp",
+          "seconds": 1787312718,
+          "nanoseconds": 319000000,
+          "iso": "2026-08-21T11:45:18.319Z"
+        },
+        "roadWidth": "40 Ft",
+        "updatedBy": "Xjs38itp3bMHXEIWHLtj4racUNg2",
+        "projectName": "Demo Project 01",
+        "baseRate": 35000,
+        "id": "knpOONPOh6BJxrso1vyJ",
+        "plotNumber": "A-01",
+        "sizeUnit": "Sq. Yd.",
+        "bookingAmount": 100000,
+        "propertyType": "Residential Plot",
+        "facing": "North-East",
+        "isDemo": true
+      },
+      "s2aTpwmY3OT6WeNXY2KX": {
+        "roadWidth": "40 Ft",
+        "propertyType": "Residential Plot",
+        "block": "Block A",
+        "size": 150,
+        "facing": "North",
+        "finalPrice": 5250000,
+        "unitNumber": "A-02",
+        "cornerPlot": false,
+        "isDemo": true,
+        "sizeUnit": "Sq. Yd.",
+        "projectId": "wfGdqJCPHmra38mKTDI7",
+        "projectName": "Demo Project 01",
+        "id": "s2aTpwmY3OT6WeNXY2KX",
+        "status": "booking",
+        "createdAt": {
+          "_type": "timestamp",
+          "seconds": 1787312718,
+          "nanoseconds": 319000000,
+          "iso": "2026-08-21T11:45:18.319Z"
+        },
+        "baseRate": 35000,
+        "updatedAt": {
+          "_type": "timestamp",
+          "seconds": 1787312979,
+          "nanoseconds": 288000000,
+          "iso": "2026-08-21T11:49:39.288Z"
+        },
+        "plotNumber": "A-02",
+        "bookingAmount": 100000
+      },
+      "vJi6CSt7GvyK3EUGyn4G": {
+        "plotNumber": "A-04",
+        "roadWidth": "40 Ft",
+        "block": "Block A",
+        "size": 200,
+        "bookingAmount": 100000,
+        "baseRate": 35000,
+        "status": "sold",
+        "propertyType": "Residential Plot",
+        "sizeUnit": "Sq. Yd.",
+        "facing": "East",
+        "finalPrice": 7000000,
+        "cornerPlot": false,
+        "unitNumber": "A-04",
+        "isDemo": true,
+        "projectId": "wfGdqJCPHmra38mKTDI7",
+        "updatedAt": {
+          "_type": "timestamp",
+          "seconds": 1787312979,
+          "nanoseconds": 387000000,
+          "iso": "2026-08-21T11:49:39.387Z"
+        },
+        "projectName": "Demo Project 01",
+        "createdAt": {
+          "_type": "timestamp",
+          "seconds": 1787312718,
+          "nanoseconds": 319000000,
+          "iso": "2026-08-21T11:45:18.319Z"
+        },
+        "id": "vJi6CSt7GvyK3EUGyn4G"
+      },
+      "BD-PL-101": {
+        "id": "BD-PL-101",
+        "unitNumber": "101",
+        "block": "Block A (Yamuna Front)",
+        "size": 150,
+        "sizeUnit": "Sq. Yd.",
+        "facing": "North-East",
+        "finalPrice": 5250000,
+        "baseRate": 35000,
+        "status": "booking",
+        "projectId": "bansuri-dham-project",
+        "projectName": "Bansuri Dham",
+        "propertyType": "Residential Plot",
+        "cornerPlot": true,
+        "roadWidth": "40 Ft",
+        "createdAt": {
+          "_type": "timestamp",
+          "seconds": 1787312718,
+          "nanoseconds": 0,
+          "iso": "2026-08-21T11:45:18.000Z"
+        },
+        "updatedAt": {
+          "_type": "timestamp",
+          "seconds": 1787313020,
+          "nanoseconds": 0,
+          "iso": "2026-08-21T11:50:20.000Z"
+        }
+      },
+      "BD-PL-102": {
+        "id": "BD-PL-102",
+        "unitNumber": "102",
+        "block": "Block A (Yamuna Front)",
+        "size": 180,
+        "sizeUnit": "Sq. Yd.",
+        "facing": "East",
+        "finalPrice": 6300000,
+        "baseRate": 35000,
+        "status": "booking",
+        "projectId": "bansuri-dham-project",
+        "projectName": "Bansuri Dham",
+        "propertyType": "Residential Plot",
+        "cornerPlot": false,
+        "roadWidth": "40 Ft",
+        "createdAt": {
+          "_type": "timestamp",
+          "seconds": 1787312718,
+          "nanoseconds": 0,
+          "iso": "2026-08-21T11:45:18.000Z"
+        },
+        "updatedAt": {
+          "_type": "timestamp",
+          "seconds": 1787313020,
+          "nanoseconds": 0,
+          "iso": "2026-08-21T11:50:20.000Z"
+        }
+      },
+      "BD-PL-103": {
+        "id": "BD-PL-103",
+        "unitNumber": "103",
+        "block": "Block A (Park Facing)",
+        "size": 200,
+        "sizeUnit": "Sq. Yd.",
+        "facing": "North",
+        "finalPrice": 7000000,
+        "baseRate": 35000,
+        "status": "waiting",
+        "projectId": "bansuri-dham-project",
+        "projectName": "Bansuri Dham",
+        "propertyType": "Residential Plot",
+        "cornerPlot": false,
+        "roadWidth": "40 Ft",
+        "createdAt": {
+          "_type": "timestamp",
+          "seconds": 1787312718,
+          "nanoseconds": 0,
+          "iso": "2026-08-21T11:45:18.000Z"
+        },
+        "updatedAt": {
+          "_type": "timestamp",
+          "seconds": 1787313020,
+          "nanoseconds": 0,
+          "iso": "2026-08-21T11:50:20.000Z"
+        }
+      },
+      "BD-PL-104": {
+        "id": "BD-PL-104",
+        "unitNumber": "104",
+        "block": "Block B (Arterial)",
+        "size": 250,
+        "sizeUnit": "Sq. Yd.",
+        "facing": "North-East",
+        "finalPrice": 8750000,
+        "baseRate": 35000,
+        "status": "sold",
+        "projectId": "bansuri-dham-project",
+        "projectName": "Bansuri Dham",
+        "propertyType": "Residential Plot",
+        "cornerPlot": true,
+        "roadWidth": "60 Ft",
+        "createdAt": {
+          "_type": "timestamp",
+          "seconds": 1787312718,
+          "nanoseconds": 0,
+          "iso": "2026-08-21T11:45:18.000Z"
+        },
+        "updatedAt": {
+          "_type": "timestamp",
+          "seconds": 1787313020,
+          "nanoseconds": 0,
+          "iso": "2026-08-21T11:50:20.000Z"
+        }
+      },
+      "BD-PL-105": {
+        "id": "BD-PL-105",
+        "unitNumber": "105",
+        "block": "Block B (Arterial)",
+        "size": 300,
+        "sizeUnit": "Sq. Yd.",
+        "facing": "East",
+        "finalPrice": 10500000,
+        "baseRate": 35000,
+        "status": "booking",
+        "projectId": "bansuri-dham-project",
+        "projectName": "Bansuri Dham",
+        "propertyType": "Residential Plot",
+        "cornerPlot": false,
+        "roadWidth": "60 Ft",
+        "createdAt": {
+          "_type": "timestamp",
+          "seconds": 1787312718,
+          "nanoseconds": 0,
+          "iso": "2026-08-21T11:45:18.000Z"
+        },
+        "updatedAt": {
+          "_type": "timestamp",
+          "seconds": 1787313020,
+          "nanoseconds": 0,
+          "iso": "2026-08-21T11:50:20.000Z"
+        }
+      },
+      "BD-PL-106": {
+        "id": "BD-PL-106",
+        "unitNumber": "106",
+        "block": "Block C (Farm Sector)",
+        "size": 500,
+        "sizeUnit": "Sq. Yd.",
+        "facing": "North",
+        "finalPrice": 16000000,
+        "baseRate": 32000,
+        "status": "booking",
+        "projectId": "bansuri-dham-project",
+        "projectName": "Bansuri Dham",
+        "propertyType": "Farm Area Plot",
+        "cornerPlot": false,
+        "roadWidth": "60 Ft",
+        "createdAt": {
+          "_type": "timestamp",
+          "seconds": 1787312718,
+          "nanoseconds": 0,
+          "iso": "2026-08-21T11:45:18.000Z"
+        },
+        "updatedAt": {
+          "_type": "timestamp",
+          "seconds": 1787313020,
+          "nanoseconds": 0,
+          "iso": "2026-08-21T11:50:20.000Z"
+        }
+      }
+    },
+    "leads": {
+      "lead_cr_901": {
+        "id": "lead_cr_901",
+        "name": "Vikramaditya Sharma",
+        "phone": "+91 98112 34567",
+        "email": "v.sharma@investor.in",
+        "stage": "site_visit_scheduled",
+        "projectId": "bansuri-dham-project",
+        "projectName": "Bansuri Dham",
+        "budget": "₹50L - ₹75L",
+        "source": "Website Enquiry",
+        "createdAt": 1791732496913,
+        "notes": "Interested in 200 Sq. Yd. park-facing plot."
+      },
+      "lead_cr_902": {
+        "id": "lead_cr_902",
+        "name": "Ananya Deshmukh",
+        "phone": "+91 98200 87654",
+        "email": "ananya.d@gmail.com",
+        "stage": "negotiation",
+        "projectId": "wfGdqJCPHmra38mKTDI7",
+        "projectName": "Demo Project 01",
+        "budget": "₹60L",
+        "source": "Channel Partner",
+        "createdAt": 1791559696913,
+        "notes": "Follow up after bank loan verification."
+      },
+      "lead_cr_903": {
+        "id": "lead_cr_903",
+        "name": "Harish Chandra Verma",
+        "phone": "+91 98101 99882",
+        "email": "hcverma@gmail.com",
+        "stage": "new",
+        "projectId": "bansuri-dham-project",
+        "projectName": "Bansuri Dham",
+        "budget": "₹1 Cr+",
+        "source": "Direct Call",
+        "createdAt": 1791818896913,
+        "notes": "Inquired about commercial high-street frontage plots."
+      }
+    },
+    "siteVisits": {
+      "visit_cr_101": {
+        "id": "visit_cr_101",
+        "name": "Vikramaditya Sharma",
+        "phone": "+91 98112 34567",
+        "preferredDate": "2026-10-18",
+        "pickupLocation": "Pari Chowk, Greater Noida",
+        "passengers": 3,
+        "status": "confirmed",
+        "projectId": "bansuri-dham-project",
+        "projectName": "Bansuri Dham",
+        "executiveName": "Sunil Kumar (Sales)",
+        "createdAt": 1791732496913
+      },
+      "visit_cr_102": {
+        "id": "visit_cr_102",
+        "name": "Sanjay Rastogi",
+        "phone": "+91 98188 77665",
+        "preferredDate": "2026-10-19",
+        "pickupLocation": "Sector 18 Metro Station, Noida",
+        "passengers": 2,
+        "status": "requested",
+        "projectId": "bansuri-dham-project",
+        "projectName": "Bansuri Dham",
+        "executiveName": "Amit Verma",
+        "createdAt": 1791818896913
+      }
+    },
+    "associates": {
+      "assoc_l1_rajesh": {
+        "id": "assoc_l1_rajesh",
+        "associateId": "CR-ASC-1001",
+        "name": "Rajesh Verma",
+        "phone": "+91 98101 23456",
+        "email": "rajesh.verma@cosyassociates.com",
+        "role": "level_1",
+        "level": 1,
+        "teamSize": 18,
+        "totalVolume": 45000000,
+        "kycStatus": "Verified",
+        "agreementStatus": "Signed",
+        "city": "Delhi NCR",
+        "sponsorId": "CR-HQ-DIRECT",
+        "active": true,
+        "createdAt": 1789313296913
+      },
+      "assoc_l2_vikram": {
+        "id": "assoc_l2_vikram",
+        "associateId": "CR-ASC-1002",
+        "name": "Vikram Singhania",
+        "phone": "+91 98102 34567",
+        "email": "vikram.s@cosyassociates.com",
+        "role": "level_2",
+        "level": 2,
+        "teamSize": 12,
+        "totalVolume": 32000000,
+        "kycStatus": "Verified",
+        "agreementStatus": "Signed",
+        "city": "Noida",
+        "sponsorId": "assoc_l1_rajesh",
+        "active": true,
+        "createdAt": 1789745296913
+      },
+      "assoc_l3_priyanka": {
+        "id": "assoc_l3_priyanka",
+        "associateId": "CR-ASC-1003",
+        "name": "Priyanka Saxena",
+        "phone": "+91 98103 45678",
+        "email": "priyanka.s@cosyassociates.com",
+        "role": "level_3",
+        "level": 3,
+        "teamSize": 8,
+        "totalVolume": 18000000,
+        "kycStatus": "Verified",
+        "agreementStatus": "Signed",
+        "city": "Greater Noida",
+        "sponsorId": "assoc_l2_vikram",
+        "active": true,
+        "createdAt": 1790177296913
+      },
+      "assoc_l4_arun": {
+        "id": "assoc_l4_arun",
+        "associateId": "CR-ASC-1004",
+        "name": "Arun Kumar Mishra",
+        "phone": "+91 98104 56789",
+        "email": "arun.m@cosyassociates.com",
+        "role": "level_4",
+        "level": 4,
+        "teamSize": 5,
+        "totalVolume": 12000000,
+        "kycStatus": "Verified",
+        "agreementStatus": "Signed",
+        "city": "Aligarh",
+        "sponsorId": "assoc_l3_priyanka",
+        "active": true,
+        "createdAt": 1790609296913
+      }
+    },
+    "testimonials": {
+      "t_01": {
+        "id": "t_01",
+        "name": "Rajesh & Sunita Sharma",
+        "designation": "Plot Owners",
+        "location": "Noida",
+        "review": "Cosy Reality made our land purchase experience clear and structured. The 15 years of construction experience is clearly evident in how they execute road infrastructure and drainage.",
+        "rating": 5,
+        "published": true,
+        "featured": true,
+        "createdAt": 1790609296914
+      },
+      "t_02": {
+        "id": "t_02",
+        "name": "Vikramaditya Sengupta",
+        "designation": "Senior Architect & Investor",
+        "location": "Delhi NCR",
+        "review": "The transparency in their live inventory status saved us tremendous back-and-forth. No hidden conditions or false promises. Highly professional team.",
+        "rating": 5,
+        "published": true,
+        "featured": true,
+        "createdAt": 1791041296914
+      },
+      "t_03": {
+        "id": "t_03",
+        "name": "Amit Patel",
+        "designation": "Channel Associate Partner",
+        "location": "Gurugram",
+        "review": "Working with Cosy Reality as a channel partner has been exceptional. Structured payouts, clear documentation, and ethical client engagement.",
+        "rating": 5,
+        "published": true,
+        "featured": true,
+        "createdAt": 1791473296914
+      }
+    },
+    "users": {
+      "u_super_admin": {
+        "id": "u_super_admin",
+        "uid": "u_super_admin",
+        "name": "Super Administrator",
+        "email": "super_admin@cosyreality.com",
+        "role": "super_admin",
+        "active": true,
+        "phone": "+91 98101 00001",
+        "createdAt": 1788449296914
+      },
+      "u_sales_admin": {
+        "id": "u_sales_admin",
+        "uid": "u_sales_admin",
+        "name": "Sales Manager",
+        "email": "sales_admin@cosyreality.com",
+        "role": "sales_admin",
+        "active": true,
+        "phone": "+91 98101 00002",
+        "createdAt": 1788881296914
+      },
+      "u_inventory_mgr": {
+        "id": "u_inventory_mgr",
+        "uid": "u_inventory_mgr",
+        "name": "Project & Inventory Manager",
+        "email": "inventory_manager@cosyreality.com",
+        "role": "inventory_manager",
+        "active": true,
+        "phone": "+91 98101 00003",
+        "createdAt": 1789313296914
+      },
+      "u_receptionist": {
+        "id": "u_receptionist",
+        "uid": "u_receptionist",
+        "name": "Reception & Telecaller Desk",
+        "email": "receptionist@cosyreality.com",
+        "role": "receptionist",
+        "active": true,
+        "phone": "+91 98101 00004",
+        "createdAt": 1789745296914
+      }
+    },
+    "statusHistory": {
+      "hist_01": {
+        "id": "hist_01",
+        "inventoryId": "BD-PL-101",
+        "previousStatus": "waiting",
+        "newStatus": "booking",
+        "reason": "Booking advance cleared via RTGS",
+        "changedBy": "Super Admin",
+        "createdAt": 1790350096914
+      },
+      "hist_02": {
+        "id": "hist_02",
+        "inventoryId": "BD-PL-104",
+        "previousStatus": "waiting",
+        "newStatus": "sold",
+        "reason": "Registry and stamp duty registered",
+        "changedBy": "Super Admin",
+        "createdAt": 1790609296914
+      }
+    },
+    "auditLogs": {
+      "audit_01": {
+        "id": "audit_01",
+        "action": "COMMISSION_PLAN_UPDATE",
+        "entity": "commissionPlanConfig",
+        "entityId": "default",
+        "performedBy": "Super Admin",
+        "details": "Configured 10% Direct Referral & 1:1 Matching Bonus framework",
+        "createdAt": 1791646096914
+      },
+      "audit_02": {
+        "id": "audit_02",
+        "action": "TRANSACTION_APPROVED",
+        "entity": "qualifyingTransactions",
+        "entityId": "tx_bd_1001",
+        "performedBy": "Super Admin",
+        "details": "Verified plot booking collection of ₹52,50,000 for Bansuri Dham",
+        "createdAt": 1790350096914
+      }
+    },
+    "qualifyingTransactions": {
+      "tx_bd_1001": {
+        "id": "tx_bd_1001",
+        "transactionId": "TX-CR-2026-1001",
+        "projectId": "bansuri-dham-project",
+        "projectName": "Bansuri Dham",
+        "unitOrPlotNumber": "Plot 101 (150 Sq. Yd.)",
+        "propertyValue": 5250000,
+        "eligibleCollection": 5250000,
+        "customerReference": "CUST-CR-9041 (V. Sharma)",
+        "directAssociateId": "assoc_l1_rajesh",
+        "directAssociateName": "Rajesh Verma",
+        "transactionStatus": "completed",
+        "commissionEligible": true,
+        "qualificationDate": "2026-09-15",
+        "notes": "Full registration and token milestone collection verified.",
+        "createdAt": 1790177296914
+      },
+      "tx_bd_1002": {
+        "id": "tx_bd_1002",
+        "transactionId": "TX-CR-2026-1002",
+        "projectId": "bansuri-dham-project",
+        "projectName": "Bansuri Dham",
+        "unitOrPlotNumber": "Plot 102 (180 Sq. Yd.)",
+        "propertyValue": 6300000,
+        "eligibleCollection": 6300000,
+        "customerReference": "CUST-CR-9042 (A. Deshmukh)",
+        "directAssociateId": "assoc_l1_rajesh",
+        "directAssociateName": "Rajesh Verma",
+        "transactionStatus": "completed",
+        "commissionEligible": true,
+        "qualificationDate": "2026-09-28",
+        "notes": "All documents signed and legal verification cleared.",
+        "createdAt": 1790868496914
+      }
+    },
+    "commissionRecords": {
+      "rec_bd_1001_l1": {
+        "id": "rec_bd_1001_l1",
+        "transactionId": "TX-CR-2026-1001",
+        "associateId": "assoc_l1_rajesh",
+        "associateName": "Rajesh Verma",
+        "level": 1,
+        "rate": 10,
+        "qualifyingValue": 5250000,
+        "totalEligibleCommission": 525000,
+        "upfrontAmount": 131250,
+        "remainingAmount": 393750,
+        "paidAmount": 131250,
+        "pendingAmount": 393750,
+        "status": "approved",
+        "approvedBy": "Super Admin",
+        "createdAt": 1790263696914
+      },
+      "rec_bd_1001_l2": {
+        "id": "rec_bd_1001_l2",
+        "transactionId": "TX-CR-2026-1001",
+        "associateId": "assoc_l2_vikram",
+        "associateName": "Vikram Singhania",
+        "level": 2,
+        "rate": 2,
+        "qualifyingValue": 5250000,
+        "totalEligibleCommission": 105000,
+        "upfrontAmount": 26250,
+        "remainingAmount": 78750,
+        "paidAmount": 26250,
+        "pendingAmount": 78750,
+        "status": "approved",
+        "approvedBy": "Super Admin",
+        "createdAt": 1790263696914
+      }
+    },
+    "matchingRecords": {
+      "match_rec_cycle_2026_q3": {
+        "id": "match_rec_cycle_2026_q3",
+        "associateId": "assoc_l1_rajesh",
+        "associateName": "Rajesh Verma",
+        "cycleId": "CYCLE-2026-Q3",
+        "sideAEligibleValue": 15000000,
+        "sideBEligibleValue": 10000000,
+        "matchedValue": 10000000,
+        "carryForwardA": 5000000,
+        "carryForwardB": 0,
+        "matchingRate": 10,
+        "matchingRatio": "1:1",
+        "matchingBasis": "matched_business_volume",
+        "calculatedBonus": 1000000,
+        "approvedBonus": 1000000,
+        "paidBonus": 500000,
+        "status": "approved",
+        "approvedBy": "Super Admin",
+        "createdAt": 1790695696914
+      },
+      "match_rec_cycle_2026_q4": {
+        "id": "match_rec_cycle_2026_q4",
+        "associateId": "assoc_l1_rajesh",
+        "associateName": "Rajesh Verma",
+        "cycleId": "CYCLE-2026-Q4",
+        "sideAEligibleValue": 12000000,
+        "sideBEligibleValue": 12000000,
+        "matchedValue": 12000000,
+        "carryForwardA": 0,
+        "carryForwardB": 0,
+        "matchingRate": 10,
+        "matchingRatio": "1:1",
+        "matchingBasis": "matched_business_volume",
+        "calculatedBonus": 1200000,
+        "approvedBonus": 1200000,
+        "paidBonus": 0,
+        "status": "calculated",
+        "createdAt": 1791732496914
+      }
+    },
+    "directReferralRecords": {
+      "dir_ref_1001": {
+        "id": "dir_ref_1001",
+        "associateId": "assoc_l1_rajesh",
+        "associateName": "Rajesh Verma",
+        "transactionId": "TX-CR-2026-1001",
+        "projectId": "bansuri-dham-project",
+        "projectName": "Bansuri Dham",
+        "unitOrPlotNumber": "Plot 101",
+        "qualifyingPlotValue": 5250000,
+        "directReferralRate": 10,
+        "eligibleCommission": 525000,
+        "approvedCommission": 525000,
+        "paidAmount": 131250,
+        "pendingAmount": 393750,
+        "status": "approved",
+        "isMappedFromLevel1": true,
+        "approvedBy": "Super Admin",
+        "createdAt": 1790263696914
+      },
+      "dir_ref_1002": {
+        "id": "dir_ref_1002",
+        "associateId": "assoc_l1_rajesh",
+        "associateName": "Rajesh Verma",
+        "transactionId": "TX-CR-2026-1002",
+        "projectId": "bansuri-dham-project",
+        "projectName": "Bansuri Dham",
+        "unitOrPlotNumber": "Plot 102",
+        "qualifyingPlotValue": 6300000,
+        "directReferralRate": 10,
+        "eligibleCommission": 630000,
+        "approvedCommission": 630000,
+        "paidAmount": 0,
+        "pendingAmount": 630000,
+        "status": "approved",
+        "isMappedFromLevel1": true,
+        "approvedBy": "Super Admin",
+        "createdAt": 1790954896914
+      }
+    },
+    "commissionPlanConfig": {
+      "default": {
+        "id": "default",
+        "referencePropertyValue": 1000000,
+        "totalPoolRate": 20,
+        "levels": [
+          {
+            "level": 1,
+            "name": "Level 1 — Direct Channel Associate",
+            "rate": 10,
+            "band": 1,
+            "bandName": "Direct Level 1"
+          },
+          {
+            "level": 2,
+            "name": "Level 2 Associate",
+            "rate": 2,
+            "band": 2,
+            "bandName": "Early Network (Levels 2–4)"
+          },
+          {
+            "level": 3,
+            "name": "Level 3 Associate",
+            "rate": 1.75,
+            "band": 2,
+            "bandName": "Early Network (Levels 2–4)"
+          },
+          {
+            "level": 4,
+            "name": "Level 4 Associate",
+            "rate": 1.5,
+            "band": 2,
+            "bandName": "Early Network (Levels 2–4)"
+          },
+          {
+            "level": 5,
+            "name": "Level 5 Associate",
+            "rate": 0.75,
+            "band": 3,
+            "bandName": "Mid / Deep Network (Levels 5–8)"
+          },
+          {
+            "level": 6,
+            "name": "Level 6 Associate",
+            "rate": 0.6,
+            "band": 3,
+            "bandName": "Mid / Deep Network (Levels 5–8)"
+          },
+          {
+            "level": 7,
+            "name": "Level 7 Associate",
+            "rate": 0.5,
+            "band": 3,
+            "bandName": "Mid / Deep Network (Levels 5–8)"
+          },
+          {
+            "level": 8,
+            "name": "Level 8 Associate",
+            "rate": 0.4,
+            "band": 3,
+            "bandName": "Mid / Deep Network (Levels 5–8)"
+          },
+          {
+            "level": 9,
+            "name": "Level 9 Associate",
+            "rate": 1,
+            "band": 4,
+            "bandName": "Deep Network (Levels 9–10)"
+          },
+          {
+            "level": 10,
+            "name": "Level 10 Associate",
+            "rate": 1.5,
+            "band": 4,
+            "bandName": "Deep Network (Levels 9–10)"
+          }
+        ],
+        "upfrontPercentage": 25,
+        "tenureMonths1": 36,
+        "tenureMonths2": 60,
+        "enabled": false,
+        "disclaimer": "This business plan is illustrative and does not guarantee income or return. Commission eligibility depends on qualifying property transactions, eligible collections, applicable level qualification, documentation, approved company policy, cancellations, refunds, taxes and regulatory requirements. Final signed company agreements and policies shall prevail.",
+        "directReferral": {
+          "rate": 10,
+          "approvalRequired": true,
+          "mapLevel1ToDirectReferral": true,
+          "allowSeparateLevel1Payment": false
+        },
+        "matchingBonus": {
+          "enabled": true,
+          "rate": 10,
+          "ratio": "1:1",
+          "basis": "unconfigured",
+          "carryForwardEnabled": true,
+          "maxCarryForward": 0,
+          "flushCycle": "monthly",
+          "qualificationRequired": true,
+          "minEligibleBusiness": 0,
+          "approvalRequired": true,
+          "qualificationDescription": "Matching qualification rules are pending configuration."
+        },
+        "updatedAt": 1791905294281
+      }
+    }
+  }
+}

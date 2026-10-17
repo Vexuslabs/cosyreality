@@ -1,0 +1,53 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "inventory",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "projectId", "order": "ASCENDING" },
+        { "fieldPath": "status", "order": "ASCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "inventory",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "projectId", "order": "ASCENDING" },
+        { "fieldPath": "unitNumber", "order": "ASCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "commissionRecords",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "associateId", "order": "ASCENDING" },
+        { "fieldPath": "createdAt", "order": "DESCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "matchingRecords",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "associateId", "order": "ASCENDING" },
+        { "fieldPath": "createdAt", "order": "DESCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "directReferralRecords",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "associateId", "order": "ASCENDING" },
+        { "fieldPath": "createdAt", "order": "DESCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "qualifyingTransactions",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "directAssociateId", "order": "ASCENDING" },
+        { "fieldPath": "qualificationDate", "order": "DESCENDING" }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}

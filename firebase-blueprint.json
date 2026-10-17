@@ -1,0 +1,164 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Cosy Reality Firestore Schema",
+  "description": "Production-ready real estate database schema for Cosy Reality",
+  "collections": {
+    "settings": {
+      "description": "Global company and branding configuration",
+      "fields": {
+        "companyName": { "type": "string" },
+        "tagline": { "type": "string" },
+        "yearsOfExperience": { "type": "number" },
+        "phone": { "type": "string" },
+        "whatsapp": { "type": "string" },
+        "email": { "type": "string" },
+        "address": { "type": "string" },
+        "workingHours": { "type": "string" },
+        "heroImage": { "type": "string" },
+        "showCommissionPlan": { "type": "boolean" },
+        "showAssociatesPage": { "type": "boolean" }
+      }
+    },
+    "projects": {
+      "description": "Real estate projects, residential townships, and plotted sectors",
+      "fields": {
+        "projectName": { "type": "string" },
+        "slug": { "type": "string" },
+        "location": { "type": "string" },
+        "city": { "type": "string" },
+        "projectType": { "type": "string" },
+        "projectStatus": { "type": "string" },
+        "startingPrice": { "type": "number" },
+        "heroImage": { "type": "string" },
+        "highlights": { "type": "array" }
+      }
+    },
+    "inventory": {
+      "description": "Individual units and plots with real-time green/yellow/red status",
+      "fields": {
+        "projectId": { "type": "string" },
+        "unitNumber": { "type": "string" },
+        "block": { "type": "string" },
+        "size": { "type": "number" },
+        "sizeUnit": { "type": "string" },
+        "facing": { "type": "string" },
+        "finalPrice": { "type": "number" },
+        "status": { "type": "string", "enum": ["booking", "waiting", "sold"] }
+      }
+    },
+    "leads": {
+      "description": "CRM customer inquiries and pipeline stages",
+      "fields": {
+        "name": { "type": "string" },
+        "phone": { "type": "string" },
+        "email": { "type": "string" },
+        "stage": { "type": "string" }
+      }
+    },
+    "siteVisits": {
+      "description": "Scheduled site visits with complimentary transportation requests",
+      "fields": {
+        "name": { "type": "string" },
+        "phone": { "type": "string" },
+        "preferredDate": { "type": "string" },
+        "status": { "type": "string" }
+      }
+    },
+    "associates": {
+      "description": "Channel partner applications and broker registrations",
+      "fields": {
+        "name": { "type": "string" },
+        "phone": { "type": "string" },
+        "companyName": { "type": "string" },
+        "status": { "type": "string" }
+      }
+    },
+    "testimonials": {
+      "description": "Verified client reviews and homeowner ratings",
+      "fields": {
+        "name": { "type": "string" },
+        "review": { "type": "string" },
+        "rating": { "type": "number" }
+      }
+    },
+    "users": {
+      "description": "Staff profiles and RBAC credentials",
+      "fields": {
+        "uid": { "type": "string" },
+        "name": { "type": "string" },
+        "email": { "type": "string" },
+        "role": { "type": "string" }
+      }
+    },
+    "commissionPlanConfig": {
+      "description": "Configurable 10-level associate commission plan parameters",
+      "fields": {
+        "referencePropertyValue": { "type": "number" },
+        "totalPoolRate": { "type": "number" },
+        "levels": { "type": "array" },
+        "upfrontPercentage": { "type": "number" },
+        "tenureMonths1": { "type": "number" },
+        "tenureMonths2": { "type": "number" },
+        "enabled": { "type": "boolean" },
+        "disclaimer": { "type": "string" }
+      }
+    },
+    "qualifyingTransactions": {
+      "description": "Verified property sales qualifying for multi-level associate commission",
+      "fields": {
+        "transactionId": { "type": "string" },
+        "projectId": { "type": "string" },
+        "propertyValue": { "type": "number" },
+        "eligibleCollection": { "type": "number" },
+        "customerReference": { "type": "string" },
+        "directAssociateId": { "type": "string" },
+        "transactionStatus": { "type": "string" },
+        "commissionEligible": { "type": "boolean" }
+      }
+    },
+    "commissionRecords": {
+      "description": "Detailed 10-level commission calculation and payout records",
+      "fields": {
+        "transactionId": { "type": "string" },
+        "associateId": { "type": "string" },
+        "level": { "type": "number" },
+        "rate": { "type": "number" },
+        "totalEligibleCommission": { "type": "number" },
+        "upfrontAmount": { "type": "number" },
+        "remainingAmount": { "type": "number" },
+        "status": { "type": "string" }
+      }
+    },
+    "directReferralRecords": {
+      "description": "Qualifying direct referral commission records (default 10%)",
+      "fields": {
+        "associateId": { "type": "string" },
+        "transactionId": { "type": "string" },
+        "projectId": { "type": "string" },
+        "qualifyingPlotValue": { "type": "number" },
+        "directReferralRate": { "type": "number" },
+        "eligibleCommission": { "type": "number" },
+        "approvedCommission": { "type": "number" },
+        "status": { "type": "string" }
+      }
+    },
+    "matchingRecords": {
+      "description": "1:1 network business matching bonus records and carry-forward state",
+      "fields": {
+        "associateId": { "type": "string" },
+        "cycleId": { "type": "string" },
+        "sideAEligibleValue": { "type": "number" },
+        "sideBEligibleValue": { "type": "number" },
+        "matchedValue": { "type": "number" },
+        "carryForwardA": { "type": "number" },
+        "carryForwardB": { "type": "number" },
+        "matchingRate": { "type": "number" },
+        "matchingRatio": { "type": "string" },
+        "matchingBasis": { "type": "string" },
+        "calculatedBonus": { "type": "number" },
+        "approvedBonus": { "type": "number" },
+        "status": { "type": "string" }
+      }
+    }
+  }
+}
